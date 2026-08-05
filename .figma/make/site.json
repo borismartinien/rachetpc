@@ -1,0 +1,11 @@
+{
+  "title": "myitservices.ca",
+  "description": "This platform allows individuals and businesses to estimate the value of their laptops by filling out a form, facilitating easy sales decisions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
