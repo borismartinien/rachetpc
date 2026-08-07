@@ -4,7 +4,7 @@ import { useState } from 'react'
 // 1. Va sur https://web3forms.com
 // 2. Entre contact@myitservices.ca et clique "Create Access Key"
 // 3. Vérifie ta boîte mail et copie la clé ici
-const WEB3FORMS_KEY = 'f7c89c2c-5bc3-4ec3-8298-4180f48f51cc'
+const WEB3FORMS_KEY = '029f3d50-f2f2-44c5-96e2-f55af0db523f'
 
 async function sendEmail(subject: string, body: string, replyTo?: string) {
   const payload: Record<string, string> = {
