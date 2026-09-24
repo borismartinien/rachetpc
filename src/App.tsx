@@ -1926,16 +1926,20 @@ export default function App() {
         position: "fixed",
         bottom: "24px",
         right: "24px",
+        width: "72px",
+        height: "72px",
         background: "#128C7E",
         color: "#fff",
-        borderRadius: "999px",
+        borderRadius: "50%",
         padding: "12px 22px",
         textDecoration: "none",
         fontWeight: 600,
         display: "flex",
         alignItems: "center",
+        justifyContent: "center",
         gap: "8px",
         boxShadow: "0 4px 12px rgba(18,140,126,.25)",
+        transition: "all .2s ease",
         zIndex: 9999,
        
       }}
@@ -1946,8 +1950,14 @@ export default function App() {
         e.currentTarget.style.transform = "scale(1)";
       }}
     >
-      <FaWhatsapp size={20 } />
-      <span> Discuter sur WhatsApp  </span>
+      <FaWhatsapp 
+        size={34} 
+        style={{ 
+          marginLeft: "2px",
+          marginTop: "1px", 
+          }}
+      />
+      <span> </span>
     </a>
     
   </div>
